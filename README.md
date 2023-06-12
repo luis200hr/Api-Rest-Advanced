@@ -7,8 +7,8 @@ Voll.med es una clínica médica ficticia que necesita una aplicación para gest
 
 Se implemento con el uso de [Spring Security](https://docs.spring.io/spring-security/reference/index.html)  y [Json web Token](https://jwt.io/introduction) . Lo que hace es que teniendo en nuestra base de datos de usuarios registrados
 al momento de iniciar sesion si los datos de usuario y clave son lo que tenemos en nuestra base con la encyrtacion Bcrypt se le va a otorgar
-un token a nuestro usuario, el usuario con ese token podra tener acceso a los endpoint para crear, agregar, eliminar, etc.
-Si la clave o usuario son incorrectas el usuario no podra se atenticado y tampoco tendra autorizacion para acceder los endpoints.
+un token a nuestro usuario, el usuario con ese token podrá tener acceso a los endpoint para crear, agregar, eliminar, etc.
+Sí la clave o usuario son incorrectas el usuario no podra se autenticado y tampoco tendra autorización para acceder los endpoints.
 <h2>🕹️ Endpoints</h2>
 
 - 📓 __Inicio de sesion__
